@@ -1,0 +1,187 @@
+================================================================================
+DUTCH NATIONAL FLAG (DNF) DEEP TECH DISCOVERIES - QUICK REFERENCE
+================================================================================
+
+SEED: Dutch National Flag Algorithm (Dijkstra 1978) - 3-way partitioning
+
+================================================================================
+DISCOVERIES BY OBSCURITY SCORE
+================================================================================
+
+HIGHEST OBSCURITY (0.84)
+[16] Formal Program Derivation - Dijkstra's formal derivation methodology
+     Category: Formal Methods - Program Derivation
+
+VERY HIGH (0.83)
+[7]  3-Way Comparison ISA Mismatch - CPU architecture limitations
+     Category: Computer Architecture
+
+VERY HIGH (0.82)
+[1]  Bentley-McIlroy Three-Way Partitioning - 4-region optimization
+     Category: DSA - Sorting
+[19] Partition Lattice in Formal Specification - Specification theory
+     Category: Formal Methods
+
+VERY HIGH (0.81)
+[3]  Deutsch-Schorr-Waite Tree Marking - GC color classification
+     Category: Memory Management
+[9]  Permutation Group Action and Sorting - Abstract algebra connection
+     Category: Abstract Algebra
+
+HIGH (0.80)
+[10] Space Complexity and Call Stack Bounds - Stack overflow vulnerabilities
+     Category: DSA - Space Analysis
+[15] Three-Way Partitioning in Streaming Algorithms - Streaming quantiles
+     Category: Streaming & Sampling
+
+HIGH (0.79)
+[2]  Loop Invariant Proof Techniques - Hoare triple formalism
+     Category: Formal Methods
+[13] Cache-Oblivious Algorithms - Hierarchy navigation
+     Category: Algorithms - Cache Efficiency
+
+HIGH (0.78)
+[5]  Dual-Pivot Quicksort and Generalizations - Multi-pivot variants
+     Category: DSA - Advanced Sorting
+
+MEDIUM-HIGH (0.77)
+[8]  Recursion Structure and Fringe Trees - Cache miss patterns
+     Category: DSA - Algorithm Analysis
+[18] Introsort - Hybrid Quicksort-Heapsort - Production sorting
+     Category: Engineering
+
+MEDIUM (0.76)
+[6]  Ternary Search Tree Balancing - String data structures
+     Category: DSA - String Structures
+[14] Adaptive Sorting and Data Structure Awareness - Presort detection
+     Category: DSA - Adaptive Algorithms
+
+MEDIUM (0.75)
+[4]  Median-of-Medians and Pivot Selection - Order statistics
+     Category: DSA - Order Statistics
+
+MEDIUM (0.74)
+[11] k-Way Partitioning in External Sorting - MapReduce connection
+     Category: DSA - External Sorting
+
+MEDIUM (0.72)
+[12] Inversion Counting and Kendall Tau Distance - Ranking metrics
+     Category: DSA - Metrics
+
+MEDIUM (0.73)
+[17] Las Vegas Algorithm Guarantees - Probabilistic analysis
+     Category: Randomized Algorithms
+
+================================================================================
+DISCOVERIES BY CATEGORY
+================================================================================
+
+DSA & ALGORITHMS (8):
+  [1]  Bentley-McIlroy Three-Way Partitioning (0.82)
+  [4]  Median-of-Medians and Pivot Selection (0.75)
+  [5]  Dual-Pivot Quicksort (0.78)
+  [6]  Ternary Search Tree Balancing (0.76)
+  [8]  Recursion Structure and Fringe Trees (0.77)
+  [11] k-Way Partitioning (0.74)
+  [12] Inversion Counting (0.72)
+  [14] Adaptive Sorting (0.76)
+
+FORMAL METHODS (3):
+  [2]  Loop Invariant Proof Techniques (0.79)
+  [16] Formal Program Derivation (0.84)
+  [19] Partition Lattice (0.82)
+
+SYSTEMS & ARCHITECTURE (2):
+  [3]  Deutsch-Schorr-Waite GC (0.81)
+  [7]  ISA Mismatch (0.83)
+
+THEORETICAL CS (3):
+  [9]  Permutation Group Action (0.81)
+  [10] Stack Space Complexity (0.80)
+  [13] Cache-Oblivious Algorithms (0.79)
+
+ENGINEERING & PRACTICE (3):
+  [15] Streaming Algorithms (0.80)
+  [17] Las Vegas Guarantees (0.73)
+  [18] Introsort (0.77)
+
+================================================================================
+THEMATIC CONNECTIONS
+================================================================================
+
+SORTING ALGORITHM EVOLUTION:
+  DNF → [1] Bentley-McIlroy → [5] Dual-Pivot → [18] Introsort
+
+PIVOT SELECTION & COMPLEXITY:
+  DNF → [4] Median-of-Medians → [17] Las Vegas Guarantees
+
+INVARIANT MAINTENANCE & FORMAL METHODS:
+  DNF → [2] Loop Invariants → [16] Program Derivation → [19] Lattice
+
+ARCHITECTURE & IMPLEMENTATION:
+  DNF Design → [7] ISA Mismatch → [8] Cache Behavior → [13] Oblivious
+
+DISTRIBUTED & STREAMING VARIANTS:
+  DNF → [11] External Sorting → [15] Streaming → [12] Metrics
+
+CROSS-DOMAIN PATTERNS:
+  DNF Classification → [3] GC Marking → [6] TST Structure → [9] Group Theory
+
+================================================================================
+RECOMMENDED LEARNING PATHS
+================================================================================
+
+PATH 1: CORE ALGORITHM MASTERY
+  [16] → [2] → [1] → [5] → [4] → [17]
+  (Foundation → Invariants → Extensions → Variants → Analysis → Probabilistic)
+
+PATH 2: SYSTEMS & ARCHITECTURE
+  [7] → [8] → [13] → [10] → [18]
+  (ISA limits → Cache → Obliviousness → Stack → Engineering)
+
+PATH 3: FORMAL METHODS & THEORY
+  [16] → [2] → [19] → [9] → [3]
+  (Derivation → Invariants → Lattice → Groups → GC)
+
+PATH 4: ADVANCED APPLICATIONS
+  [11] → [15] → [12] → [6] → [14]
+  (External sort → Streaming → Metrics → TST → Adaptive)
+
+================================================================================
+HIGHEST IMPACT DISCOVERIES
+================================================================================
+
+For Understanding Sorting:
+  → [16] Formal Program Derivation (explains WHY algorithm works)
+  → [7]  ISA Mismatch (explains performance gap between theory & practice)
+  → [8]  Fringe Trees (explains cache behavior)
+
+For Algorithm Design Methodology:
+  → [16] Formal Program Derivation (formal derivation vs. empirical discovery)
+  → [2]  Loop Invariants (invariant-driven design)
+  → [19] Partition Lattice (specification refinement)
+
+For Practical Implementation:
+  → [18] Introsort (what production systems actually use)
+  → [7]  ISA Mismatch (why pseudocode doesn't match assembly)
+  → [10] Stack Complexity (real-world overflow vulnerabilities)
+
+For Domain Connections:
+  → [3]  DSW Tree Marking (sorting appears in garbage collection)
+  → [6]  Ternary Search Trees (sorting logic applied to strings)
+  → [11] External Sorting (classical theory drives modern big data)
+
+================================================================================
+STATISTICS
+================================================================================
+
+Total Discoveries: 19
+Average Obscurity: 0.778
+Distribution: 7 very obscure (0.8+), 12 obscure (0.7-0.8)
+
+Deepest Insight: Formal Program Derivation (0.84)
+Most Surprising Connection: Deutsch-Schorr-Waite GC (0.81)
+Most Practical: Introsort (0.77)
+Most Theoretical: Permutation Groups (0.81)
+
+================================================================================
